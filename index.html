@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exam-app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-[300px] mx-auto border p-5 mt-[30px] ">
+        <div class="mb-2">
+            <span><span id="corrent"></span>/<span id="total"></span></span>
+        </div>
+      <p id="text"></p>
+      <div id="answers"> </div>
+      <div class="p-2 mt-3 text-white hidden" id="answerText"></div>
+
+      <div class="mt-5 flex itmes-center justify-between">
+        <button class="bg-green-500 text-white px-3 py-2" id="answerBtn">Cavab Ver</button>
+        <button class="bg-green-500 text-white px-3 py-2 hidden" id="nextBtn">novbeti</button>
+      </div>
+    </div>
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
